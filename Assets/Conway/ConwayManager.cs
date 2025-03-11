@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class ConwayScript : MonoBehaviour
+public class ConwayManager : MonoBehaviour
 {
-    public static ConwayScript instance { get; private set; }
+    public static ConwayManager instance { get; private set; }
 
     private void Awake()
     {
